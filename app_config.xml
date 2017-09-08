@@ -1,0 +1,7 @@
+<uwsgi>
+    <pythonpath>/www/app/</pythonpath>
+    <module>manage</module>
+    <callable>app</callable>
+    <socket>127.0.0.1:3333</socket>
+    <processes>10</processes>
+</uwsgi>
